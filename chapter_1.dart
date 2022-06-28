@@ -36,5 +36,5 @@ void main() {
   double parsedDouble = double.parse(stringNumber);
 
   print(
-      "\nParsed number is $parsedNumber \nparsed to integer is $parsedInteger \nparsed double is $parsedDouble");
+    "\nParsed number is $parsedNumber \nparsed to integer is $parsedInteger \nparsed double is $parsedDouble");
 }
