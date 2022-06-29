@@ -18,7 +18,7 @@ class Two extends One{
     int? value3,value4;
 
     Two() : super(){
-        print("calling parent class constructor");
+        print("called parent class constructor here");
         print("Two constructor called");
     }
 
