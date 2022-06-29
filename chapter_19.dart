@@ -18,3 +18,44 @@
 /*
     set fieldName(){}
 */
+
+
+class Parent{
+
+    int? value1,value2;
+
+    // setters
+    void setValue1(int? value){
+        this.value1 = value;
+    }
+
+    void setValue2(int? value){
+        this.value2 = value;
+    }
+
+    // getters
+
+    int getValue1() => this.value1!;
+    // int getValue1(){
+    //     return this.value1;
+    // }
+
+    int getValue2() => this.value2!;
+    // int getValue2(){
+    //     return this.value2;
+    // }
+
+}
+
+
+
+void main(){
+    Parent parent = new Parent();
+    parent.setValue1(22);
+    parent.setValue2(33);
+
+    int value1 = parent.getValue1();
+    int value2 = parent.getValue2();
+
+    print("$value1 $value2");
+}
