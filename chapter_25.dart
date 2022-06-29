@@ -90,3 +90,20 @@ void main(){
 
 }
 
+// *** Rules to implement interfaces ***
+
+/*
+  1. A class that implements the interface must override every method and 
+  instance variablel of an interface.
+
+  2. Dart doesn't provide syntax to declare the interface direct.The class
+  declaration can consider as te interface itself.
+
+  3. An interface class must provide the full implementation of all the methods
+  belong to the interfaces.
+
+  4. We can implement one or more interfaces simultaneously.
+
+  5. Using the interface,we can achieve multilple inheriance.
+*/
+
